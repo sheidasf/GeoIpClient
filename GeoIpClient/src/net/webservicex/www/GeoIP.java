@@ -101,6 +101,7 @@ public class GeoIP  implements java.io.Serializable {
      * @return countryName
      */
     public java.lang.String getCountryName() {
+    	System.out.println("country name" + countryName);
         return countryName;
     }
 
